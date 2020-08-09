@@ -1,0 +1,37 @@
+.alertBlock {
+    width: 500px;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin: 30px 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alertClose {
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #8b8888;
+}
+
+.alertClose:hover {
+    color: #000;
+}
+
+.success {
+    background: #a2d8a2;
+}
+
+.success:hover {
+    background: #c2f7c2;
+}
+
+.warning {
+    background: #f3f3a9;
+}
+
+.warning:hover {
+    background: #f5f5b6;
+}
